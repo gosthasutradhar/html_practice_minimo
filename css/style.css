@@ -125,7 +125,7 @@ header{
 	width: 47%;
 	/*border: 1px solid;*/
 	float: left;
-	margin: 0px 60px 40px 0px;
+	margin: 0px 6% 40px 0px;
 }
 .single:nth-child(even){
 	margin-right: 0;
