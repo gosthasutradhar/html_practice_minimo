@@ -57,9 +57,10 @@ header{
     color: #626262;
     text-transform: uppercase;
     text-decoration: none;
+    border-bottom: 1px solid white  ;
 }
 .menu ul li a:hover{
-	color: #000000;
+	border-bottom:1px solid #000000;
 }
 .menu ul li:last-child a{
     margin-right: 0;
@@ -67,7 +68,7 @@ header{
 /*Header CSS end*/
 /*banner css start*/
 .banner{
-	padding: 50px 0;
+	padding: 0px 0;
 }
 .b_img{
 	width: 100%;
@@ -78,7 +79,7 @@ header{
 /*banner css end*/
 /*about css start*/
 .about{
-	padding: 30px 0;
+	padding: 70px 0;
 }
 .container2{
 	width: 75%;
@@ -94,6 +95,7 @@ header{
 	font-weight: 300;
 	color: #b4ad9e;
 	text-transform: uppercase;
+
 }
 .title{
 	font-size: 30px;
@@ -108,10 +110,13 @@ header{
 	text-transform: uppercase;
 	margin-top: 40px;
 }
+.text{
+	line-height: 25px;
+}
 /*about css end*/
 /*blog css start*/
 .blog{
-	padding: 50px 0;
+	padding: 30px 0 70px;
 }
 .b_wrapper{
 	overflow: hidden;
@@ -120,7 +125,7 @@ header{
 	width: 47%;
 	/*border: 1px solid;*/
 	float: left;
-	margin: 65px 60px 65px 0px;
+	margin: 0px 60px 40px 0px;
 }
 .single:nth-child(even){
 	margin-right: 0;
@@ -136,7 +141,7 @@ header{
 .news{
 	width: 100%;
 	background-color: #f0f0f0;
-	padding: 70px 0;
+	padding: 40px 0 80px;
 }
 .signup{
 	text-align: center;
@@ -184,31 +189,27 @@ header{
 /*news css end*/
 /*blog2 css start*/
 .blog2{
-	margin: 40px 0;
+	margin: 70px 0;
 
+}
+.b_button{
+	margin: 90px 0 130px;
+	text-align: center;
+}
+.b_button button{
+	order: none;
+    background: transparent;
+    border: 1px solid #626262;
+    cursor: pointer;
+    width: 165px;
+    height: 60px;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
 }
 /*blog2 css end*/
-/*load css start*/
-.load{
-	    margin: 100px 0px;
 
-}
-.load_text{
-	width: 17%;
-	margin: 0 auto;
-
-}
-.load p{
-	text-align: center;
-    padding: 20px 32px;
-    border: 1px solid #dddcd7;
-    font-size: 20px;
-    cursor: pointer;
-}
-.load p:hover{
-	box-shadow: 0px 0px 13px 1px rgba(0,0,0,0.24);
-}
-/*load css end*/
 /*footer css start*/
 footer{
 	    margin: 10px 0;
